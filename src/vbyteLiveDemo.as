@@ -25,7 +25,7 @@ package{
             } 
             var loader:Loader = new Loader();
             loader.contentLoaderInfo.addEventListener(Event.COMPLETE, loadSuccess); 
-            loader.load(new URLRequest("http://split.vbyte.cn/sdk/livesdk.swf"));
+            loader.load(new URLRequest("http://split.vbyte.cn/sdk/superp2p.swf"));
         }
         
         protected function onPlayStatus(e:NetStatusEvent):void { 

@@ -21,7 +21,7 @@ vbyte云视频直播解决方案，可帮助用户直接使用经过大规模验
 请在[vbyte开发者中心][1]建立一个测试直播频道，获取频道ID备用。
 ### 4.2 克隆此项目
 
-```ssh
+```sh
 git clone https://github.com/Vbytes/flash-demo.git
 ```
 
@@ -36,7 +36,7 @@ git clone https://github.com/Vbytes/flash-demo.git
 ```actionscript
     var loader:Loader = new Loader();
     loader.contentLoaderInfo.addEventListener(Event.COMPLETE, loadSuccess); 
-    loader.load(new URLRequest("http://split.vbyte.cn/sdk/livesdk.swf"));
+    loader.load(new URLRequest("http://split.vbyte.cn/sdk/superp2p.swf"));
 ```
 * p2p资源库加载成功后，获取实例liveP2PStream，该实例继承自NetStream，支持 Adobe 原生 NetStream 的全部方法；
 * 调用p2pNetStream.play(p2pId)播放，p2pId为步骤4.1中获取的频道ID；
